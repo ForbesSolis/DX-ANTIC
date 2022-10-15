@@ -1,0 +1,141 @@
+
+
+@media (max-width:707px) {
+    .right-section{
+        width: 54%;
+        padding: 0 0;
+    }
+    .left-section h2{
+        font-size: 25px;
+    }
+    .desktop-linkcontainer ul{
+        width: 90%;
+    }
+    .desktop-linkcontainer{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width:599px) {
+    .nav-mobile{
+        display: flex;
+    }
+    .left-final-section{
+        display: none;
+    }
+    .right-final-section{
+        width: 100%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-final-section input{
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 10px 0 10px 20px;
+        font-size: 20px;
+        align-items: flex-start;
+    }
+    .right-final-section button{
+        width: 85%;
+        margin: 0 auto;
+        padding: 10px 0;
+        font-size: 15px;
+        align-items: flex-start;
+    }
+    section{
+        /* border: 2px solid tomato; */
+        flex-direction: column;
+    }
+    .left-section{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .left-section h2{
+        padding: 10px 20px;
+        text-align: flex-start;
+    }
+    .left-section h6{
+        padding-left: 20px;
+        text-align: flex-start;
+    }
+    .right-section{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .first-right-div{
+        width: 100%;
+    }
+    .second-right-div{
+        width: 100%;
+    }
+    .conception{
+        padding-top: 0;
+    }
+
+    .installation{
+        padding-top: 0;
+    }
+    .right-div-content{
+        width: 90%;
+        padding: 10px 0;
+    }
+    .right-div-content h6{
+        font-size: 20px;
+        text-align: flex-start;
+    }
+    .right-div-content p{
+        font-size: 14px;
+        text-align: flex-start;
+    }
+    .desktop-linkcontainer{
+        display: none;
+        
+    }
+    .right-nav-desktop{
+        display: none;
+    }
+    .left-nav-desktop{
+        background: url(./images/header.png);
+        background-position: top center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-nav-desktop h1, .left-nav-desktop h5, .left-nav-desktop h3{
+        color: #f3eee8 !important;
+        
+
+    }
+     .down-cont h5, .down-cont h1, .down-cont p, .down-cont i{
+        color: #f3eee8 !important;
+     }
+
+     .down-cont h1{
+        font-size: 32px !important;
+     }
+
+     .down-cont i{
+        border: 1px solid #f3eee8;
+     }
+     .nav-mobile h3{
+        display: flex;
+        color: #f3eee8;
+        padding-top: 10px;
+        font-size: 30px;
+     }
+    .down-cont h1{
+        font-size: 30px;
+    }
+    .down-cont h5{
+        font-size: 12px;
+    }
+    
+    }
+
+
+
+
