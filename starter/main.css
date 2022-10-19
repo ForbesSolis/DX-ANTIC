@@ -182,8 +182,9 @@ header{
 }
 
 .active-link {
-    background: url(./images/header.png);
-    background-position:top center;
+    background: url(./images/active.png);
+    background-position:left center;
+    background-size: cover;
     color: white;
     
 }
