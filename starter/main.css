@@ -177,7 +177,7 @@ header{
 
 .mobile__header-links:hover,
 .mobile__header-links:focus {
-    background: white;
+    background: transparent;
     color: #A06056;
 }
 
@@ -256,7 +256,7 @@ width: 100%
     padding-top: 10px;
     /* border: 2px solid red; */
     color: #A06056;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 .right-section{
