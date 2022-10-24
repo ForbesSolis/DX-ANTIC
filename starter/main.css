@@ -6,6 +6,7 @@
 
 body{
 font-family: 'Merriweather', serif;
+position: relative;
 }
 
 
@@ -430,11 +431,105 @@ color: rgba(112, 100, 88, 0.9);
     color: pink;
 }
 
-footer{
+.parent{
     /* border: 3px solid black; */
-    display: flex;
     width: 100%;
-    /* height: 50px; */
-    justify-content: center;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.chair{
+    /* border: 2px solid tomato; */
+    background: url(./images/slide1.png);
+    background-position: bottom left;
+    background-size: cover;
+    width: 28.33%;
+    height: 100%;
+    
+}
+
+.cooked{
+    /* border: 2px solid purple; */
+    width: 36%;
+    background: url(./images/slide2.png);
+    background-position: top left;
+    background-size: cover;
+    height: 100%;
+}
+
+.living-room{
+    /* border: 2px solid purple; */
+    width: 30%;
+    background: url(./images/slide3png.png);
+    background-position: bottom right;
+    background-size: cover;
+    height: 100%;   
+    
+}
+
+.null{
+    display: none;
+}
+
+
+.combo{
+    /* border: 3px solid violet; */
+    width: 58%;
+    display: flex;
+    justify-content: last baseline;
+}
+.ins{
+     /* border: 2px solid red; */
+     width: 30%;
+     font-family: Merriweather;
+     font-size: 20px;
+     color: #534B42;
+     text-align: center;
+     padding-right: 35px;
+     padding-top: 10px;
+
+}
+
+.keen{
+    /* border: 2px solid orange; */
+    width: 28%;
+    font-family: 'Varta';
+    font-style: normal;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.icon-aus{
+    /* border: 2px solid tomato; */
+    display: flex;
+    position: absolute;
+    right: 27.5%;
+    padding: 10px;
+    
+    
+   
+}
+
+.on{
+    border: 2px solid  #A06056;
+    border-radius: 50%;
     color: #A06056;
+    padding: 0 4px;
+   
+    
+}
+
+.off{
+    border: 2px solid #A06056;
+    border-radius: 50%;
+    color:  #A06056; 
+    margin-left: 5px;
+    padding: 0 4px;
+}
+
+.chco{
+    display: none;
 }
