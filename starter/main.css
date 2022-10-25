@@ -6,7 +6,6 @@
 
 body{
 font-family: 'Merriweather', serif;
-position: relative;
 }
 
 
@@ -480,15 +479,16 @@ color: rgba(112, 100, 88, 0.9);
 
 .combo{
     /* border: 3px solid violet; */
-    width: 58%;
+    width: 60%;
     display: flex;
+    position: relative;
     
 }
 .ins{
      /* border: 2px solid red; */
      width: 30%;
      font-family: Merriweather;
-     font-size: 20px;
+     font-size: 18px;
      color: #534B42;
      text-align: flex-start;
      padding-left: 22px;
@@ -501,7 +501,7 @@ color: rgba(112, 100, 88, 0.9);
     width: 28%;
     font-family: 'Varta';
     font-style: normal;
-    font-size: 10px;
+    font-size: 8px;
     padding-top: 10px;
     padding-left: 22px;
 }
@@ -510,7 +510,7 @@ color: rgba(112, 100, 88, 0.9);
     /* border: 2px solid tomato; */
     display: flex;
     position: absolute;
-    right: 27.5%;
+    right: -21%;
     padding: 10px;
     padding-left: 22px;
     
