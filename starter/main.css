@@ -474,12 +474,15 @@ color: rgba(112, 100, 88, 0.9);
     display: none;
 }
 
+.pad{
+    display: none;
+}
 
 .combo{
     /* border: 3px solid violet; */
     width: 58%;
     display: flex;
-    justify-content: last baseline;
+    
 }
 .ins{
      /* border: 2px solid red; */
@@ -487,8 +490,8 @@ color: rgba(112, 100, 88, 0.9);
      font-family: Merriweather;
      font-size: 20px;
      color: #534B42;
-     text-align: center;
-     padding-right: 35px;
+     text-align: flex-start;
+     padding-left: 22px;
      padding-top: 10px;
 
 }
@@ -500,6 +503,7 @@ color: rgba(112, 100, 88, 0.9);
     font-style: normal;
     font-size: 10px;
     padding-top: 10px;
+    padding-left: 22px;
 }
 
 .icon-aus{
@@ -508,6 +512,7 @@ color: rgba(112, 100, 88, 0.9);
     position: absolute;
     right: 27.5%;
     padding: 10px;
+    padding-left: 22px;
     
     
    
