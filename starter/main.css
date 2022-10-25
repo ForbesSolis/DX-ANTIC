@@ -6,6 +6,7 @@
 
 body{
 font-family: 'Merriweather', serif;
+position: relative;
 }
 
 
@@ -479,19 +480,19 @@ color: rgba(112, 100, 88, 0.9);
 
 .combo{
     /* border: 3px solid violet; */
-    width: 60%;
+    width: 58%;
     display: flex;
-    position: relative;
+    justify-content: flex-start;
     
 }
 .ins{
      /* border: 2px solid red; */
      width: 30%;
      font-family: Merriweather;
-     font-size: 18px;
+     font-size: 20px;
      color: #534B42;
      text-align: flex-start;
-     padding-left: 22px;
+     padding-left: 20px;
      padding-top: 10px;
 
 }
@@ -501,16 +502,18 @@ color: rgba(112, 100, 88, 0.9);
     width: 28%;
     font-family: 'Varta';
     font-style: normal;
-    font-size: 8px;
+    font-size: 10px;
+    text-align: end;
     padding-top: 10px;
     padding-left: 22px;
+    
 }
 
 .icon-aus{
     /* border: 2px solid tomato; */
     display: flex;
     position: absolute;
-    right: -21%;
+    right: 27.5%;
     padding: 10px;
     padding-left: 22px;
     
